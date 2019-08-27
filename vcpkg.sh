@@ -1,3 +1,5 @@
+!/bin/bash
+
 pushd vcpkg
 . ./bootstrap-vcpkg.sh
 ./vcpkg integrate install
