@@ -11,6 +11,8 @@ matrix:
       dist: bionic
       env: RS_CPP_TEST=true
       script:
+        - git submodule init
+        - git submodule update
         - . ./vcpkg.sh
         - . ./build.sh
 install:
