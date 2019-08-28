@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh -e
 
 pushd vcpkg
 . ./bootstrap-vcpkg.sh
