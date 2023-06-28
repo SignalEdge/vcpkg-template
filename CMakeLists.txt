@@ -1,5 +1,7 @@
-cmake_minimum_required(VERSION 3.0)
+cmake_minimum_required(VERSION 3.19)
+
 project(example)
-find_package(ZLIB REQUIRED)
-add_executable(example example.cpp)
-target_link_libraries(example ZLIB::ZLIB)
+
+add_subdirectory(test)
+add_subdirectory(benchmark)
+add_subdirectory(sample)
